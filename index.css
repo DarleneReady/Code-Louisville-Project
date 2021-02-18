@@ -4,18 +4,19 @@ h1 {
     front-color: gray;
   }
   
-  p, li {
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
-    padding: 20; 20; 20; 20;
+ li::before {
+  content: "::before";
+  background: lightgray;
+  border-radius: 1ch;
+  padding-inline: 1ch;
+  margin-inline-end: 1ch;
   }
   @media screen (min: width 500px) and (max-width:1024px){
    }
    .header {
      width: 800px;
      margin: 0 auto;
-     padding: 0 10px 10px 10px;
+     padding: 0 10px 10px 10px
      border: 10px;
    }
    body {
