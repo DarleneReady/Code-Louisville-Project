@@ -1,5 +1,5 @@
 h1 {
-    font-size: 60px;
+    font-size: 20px;
     text-align: center;
   }
   
@@ -31,4 +31,12 @@ img {
   width: 200px;
   height: 200px;
   border: 1px solid black;
+}
+button {
+    background-color: yellowgreen;
+    color: white;
+    padding: 15px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    width: 100%;
 }
