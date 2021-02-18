@@ -1,6 +1,7 @@
 h1 {
     font-size: 20px;
     text-align: center;
+    color: gray;
   }
   
   p, li {
@@ -22,16 +23,16 @@ h1 {
     margin:0 auto;
     background-color: #00ff9d;
     padding: 0 10px 10px 10px;
-    border: 10px solid aqua;
+    border: 10px solid; aqua;
   }
   element {
     background-repeat: repeat;
 }
 img {
-  object-position: right left;
+  object-position: top left;
   width: 200px;
   height: 200px;
-  border: 1px solid black;
+  border: 1px solid; black;
 }
 button {
     background-color: yellowgreen;
