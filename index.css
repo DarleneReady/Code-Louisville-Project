@@ -1,7 +1,7 @@
 h1 {
     font-size: 20px;
     text-align: center;
-    color: gray;
+    front-color: gray;
   }
   
   p, li {
@@ -10,17 +10,17 @@ h1 {
     letter-spacing: 1px;
     padding: 20; 20; 20; 20;
   }
-  @media screen and (min: width 500px) and (max-width:1024px){
+  @media screen (min: width 500px) and (max-width:1024px){
    }
    .header {
-     width:800px;
+     width: 800px;
      margin: 0 auto;
      padding: 0 10px 10px 10px;
      border: 10px;
    }
    body {
-    width:600px;
-    margin:0 auto;
+    width: 600px;
+    margin: 0 auto;
     background-color: #00ff9d;
     padding: 0 10px 10px 10px;
     border: 10px solid; aqua;
